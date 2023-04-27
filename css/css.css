@@ -53,24 +53,32 @@ header ul li a, .right li a{
     color: black;
 
 }
-.pi{
+.woman{
+    background-image: url('../img/1.svg'); 
+    position: absolute;
+     width: 785px;
+     height: 826px;
+     left: 980px;
+     top: 0px;
+     z-index: -1;
+ }
+
+
+
+ 
+
+
+
+
+
+.big{
+    width: 585px;
+}
+.little{
     font-size: 20px;
     width: 385px;
     margin-top: 45px;
     text-align: right;
-}
-.po{
-    width: 585px;
-}
-.photo{
-    margin-top: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
-.pp{
-    color: #998E78;
-    margin-top: 7px;
 }
 button{
     height: 68px;
@@ -83,58 +91,75 @@ button{
     font-size: 17px;
     
 }
-.btn a{
-    text-decoration: none;
-    color: var(--main-color); 
+.bbn{
+    color:white;
+    margin-left: 100px;
 }
 .bbn a{
     text-decoration: none;
     color: white;
 }
 
-.lili a{
+.text-color a{
     color:var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+.photo{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.ph img{
+    margin-bottom: 24px;
+}
+.pp{
+    color: #998E78;
+    margin-top: 7px;
 }
 .btn{
     background-color: white;
     margin-left: 430px;
     color: var(--main-color);
 }
-.bbn{
-    color:white;
-    margin-left: 100px;
+.btn a{
+    text-decoration: none;
+    color: var(--main-color); 
 }
-.woman{
-   background-image: url('../img/1.svg'); 
-   position: absolute;
-    width: 785px;
-    height: 826px;
-    left: 980px;
-    top: 0px;
-    z-index: -1;
-}
+
+
+
 .imp{
 
-        margin-top: 50px;
-        text-align: left;
-        display: flex;
-        justify-content: space-between;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 .im{
-    width: 317px;
+width: 317px;
 }
 .im img{
     height: 61px;
 width: 61px;
 
 }
-.ph img{
-    margin-bottom: 24px;
-}
 .ppp{
     font-size: 25px;
     margin-bottom: 24px;
 }
+
+
+
+
 .team{
     display: flex;
     justify-content: space-between;
@@ -153,32 +178,32 @@ width: 61px;
     text-decoration: none; 
     color: var(--main-color);
 }
+
+
+
 footer{
     background-color: var(--footer);
     height: 363px;
 }
-.loga{
+.logo-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 85px;
 }
-.loga ul, .rightt{
+.logo-2 ul, .rightt{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    
-    
+   
 }
-.loga ul{
+.logo-2 ul{
     width: 400px;
 }
-
-.loga ul li a, .rightt li a{
+.logo-2 ul li a, .rightt li a{
     text-decoration: none;
     color: black;
 }
-
 .pravo{
     margin-top: 73px;
 }
@@ -190,9 +215,7 @@ footer{
 }
 .pravo ul li a{
     text-decoration: none;
-    color: black; 
-
-    
+    color: black;    
 }
 .bottom{
     display: flex;
@@ -204,8 +227,7 @@ footer{
 }
 .seredina ul{
     list-style: none;
-
-    
+   
 }
 .seredina ul li a{
     text-decoration: none;
@@ -233,16 +255,16 @@ footer{
 
 
 
-.eee{
+.main{
     display: flex;
     justify-content: space-between;
     width: 181px;
     margin-top: 28px;
 }
-.appa{
+.grey-color{
     color: #909090;
 }
-.bbb{
+.item{
     width: 162px;
 height: 62px;
 
@@ -250,14 +272,14 @@ background: #000000;
 color: white;
 border: 1px solid #000000;
 }
-.bbbb{
+.item-1{
     width: 191px;
     height: 62px;
     color: black; 
     background-color: white;
     border: 1px solid #000000;
 }
-.papa{
+.show{
     margin-top: 90px;
     color:#808080;
     
@@ -293,7 +315,7 @@ border: 1px solid #000000;
 
 
 
-.ee{
+.main-1{
     display: flex;
     justify-content: space-between;
     width: 411px;
@@ -306,7 +328,7 @@ border: 1px solid #000000;
     width: 957px;
     margin-top: -95px;
 }
-.fork{
+.info{
     width: 347px;
         
     display: flex;
@@ -316,23 +338,21 @@ border: 1px solid #000000;
     margin-top: 85px;
 
 }
-.aang{
+.prices{
     display: flex;
     justify-content: space-between;
     width: 187px;
     font-size: 40px;
 }
-.maman{
-    color: #998E78;
-}
-.mama{
+
+.price{
     color: #9C9C9C;
     text-decoration-line: line-through;
     font-size: 30px;
     display: flex;
     align-items: center;
 }
-.coass{
+.size-1{
     width: 41px;
     height: 41px;
     color: white;
@@ -341,7 +361,7 @@ border: 1px solid #000000;
     padding: 0;
     margin: 0;
 }
-.cvass{
+.size{
     width: 41px;
     height: 41px;
     color: black;
@@ -410,4 +430,117 @@ border: 1px solid #000000;
     display: flex;
     justify-content: space-between;
     width: 731px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 90%;
+    }
+    .woman{
+        background-image: none;
+        width: 0;
+        height: 0;
+    }
+    .new_arrivals{
+        text-align: center;
+    }
+    .big{
+        width: 100%;
+    }
+    .little{
+        text-align: center;
+        width: 100%;
+    }
+    .bbn{
+        margin-left: 0;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 1160px) {
+    .photo{
+        display:grid;
+        justify-content: center;
+        
+    }
+    .photot{
+        display: grid;
+        justify-content: center;
+    }
+    .new_collection{
+        text-align: center;
+    }
+    .btn{
+        margin-left: 0;
+    }
+    .pp{
+        margin-bottom: 7px;
+    }
+    h2{
+        text-align: center;
+    }
+    .img_1{
+            display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+ 
+    .teama{
+        display: grid;
+        width: 100%;
+    }
+    
+    
+    
+    .team{
+        display: grid;
+        justify-content: center; 
+    }
+    .for{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container{
+        margin-bottom: 170px;
+    }
+    .logo-2 ul {
+        width: 350px;
+    }
+    .right{
+        width:auto;
+    }
+    header ul {
+        width: 350px;
+    }
+    
+    
 }
